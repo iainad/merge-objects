@@ -57,7 +57,7 @@ This package allwows you to combine objects that include getter/setter methods s
 Usage of this package is straightforward, e.g.:
 
 ```javascript
-import mergeObjects from 'merge-objects'
+import mergeObjects from '@iainad/merge-objects'
 
 const person = {
   firstName: null,
@@ -94,7 +94,7 @@ Most of the actually useful code here comes from [@joelmoss](https://github.com/
 I wanted this to allow me to destructure models in Ibiza as follows:
 
 ```javascript
-import mergeObjects from 'merge-objects'
+import mergeObjects from '@iainad/merge-objects'
 import { createModel } from 'ibiza'
 
 const modelAccessors = {
