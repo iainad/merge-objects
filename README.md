@@ -89,7 +89,7 @@ In the above example the new object will be the combination of the objects but m
 
 # Credits
 
-Most of the actually useful code here comes from @joelmoss in [ibiza](https://github.com/joelmoss/ibiza) React 'state management for party animals' so thanks Joel!
+Most of the actually useful code here comes from [@joelmoss](https://github.com/joelmoss) in [ibiza](https://github.com/joelmoss/ibiza) React 'state management for party animals' so thanks Joel!
 
 I wanted this to allow me to destructure models in Ibiza as follows:
 
