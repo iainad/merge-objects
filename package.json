@@ -1,0 +1,36 @@
+{
+  "name": "merge-objects",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Merges a number of javascript objects into a new object, preserving getter and setter methods in the process",
+  "source": "src/index.js",
+  "main": "dist/merge-objects.cjs",
+  "unpkg": "dist/merge-objects.umd.js",
+  "exports": {
+    "require": "./dist/merge-objects.cjs",
+    "default": "./dist/merge-objects.modern.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "prepublishOnly": "yarn clean && yarn build"
+  },
+  "keywords": [
+    "object",
+    "merge",
+    "getter",
+    "setter"
+  ],
+  "files": [
+    "dist/**"
+  ],
+  "author": "Iain Donaldson",
+  "repository": "git@github.com:iainad/merge-objects.git",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.15.0",
+    "rimraf": "^3.0.2"
+  }
+}
