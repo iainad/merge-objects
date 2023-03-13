@@ -33,7 +33,7 @@ const merge = (target, src) => {
       const value = target[prop]
 
       if (isPlainObject(desc.value)) {
-        target[prop] = merge(value, desc.value)
+        target[prop] = merge(value || {}, desc.value)
       } else if (Array.isArray(desc.value)) {
         target[prop] = desc.value.map((x, i, array) => {
           return isPlainObject(x) ? merge(array[i], x) : x

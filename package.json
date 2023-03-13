@@ -1,7 +1,7 @@
 {
   "name": "@iainad/merge-objects",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Merges a number of javascript objects into a new object, preserving getter and setter methods in the process",
   "source": "src/index.js",
   "main": "dist/merge-objects.cjs",
